@@ -1,0 +1,59 @@
+/* 全局样式 */
+
+/* 重置样式 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* 通用样式 */
+.page-container {
+  padding: 20px;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #303133;
+}
+
+.card-container {
+  margin-bottom: 20px;
+}
+
+/* 表单样式 */
+.form-container {
+  max-width: 800px;
+}
+
+/* 表格样式 */
+.table-operations {
+  margin-bottom: 20px;
+}
+
+/* 按钮样式 */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* 响应式样式 */
+@media (max-width: 768px) {
+  .el-form-item {
+    display: block;
+  }
+  
+  .el-form-item__label {
+    text-align: left;
+    float: none;
+    display: block;
+  }
+}
